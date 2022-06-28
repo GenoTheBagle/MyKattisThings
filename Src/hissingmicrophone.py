@@ -1,0 +1,1 @@
+print("hiss") if 'ss' in input().lower() else print("no hiss")
