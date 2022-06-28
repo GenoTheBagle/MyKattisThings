@@ -1,0 +1,5 @@
+y, p = input().split()
+if y.endswith('e'): print(f"{y}x{p}")
+elif y.endswith(('a','i','o','u')): print(f"{y[:-1]}ex{p}")
+elif y.endswith('ex'): print(f"{y}{p}")
+else: print(f"{y}ex{p}")
