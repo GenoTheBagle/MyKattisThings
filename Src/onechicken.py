@@ -1,0 +1,2 @@
+a, b = list(map(int, input().split()))
+print(f"Dr. Chaz {'will have' if (b-a)>=0 else 'needs'} {abs(b-a)}{'' if (b-a)>=0 else ' more'} piece{'s' if not (abs(a-b))==1 else ''} of chicken{' left over' if (b-a)>=0 else ''}!")
