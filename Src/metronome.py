@@ -1,0 +1,1 @@
+print('%.2f'%(float(input())/4))
